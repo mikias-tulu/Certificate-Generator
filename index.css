@@ -1,1 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('certificate-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
+.certificate {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #fff;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.signature {
+    text-align: center;
+}
+
+.signature img {
+    width: 150px;
+}
+
+.note {
+    width: 60%;
+}
