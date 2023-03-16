@@ -12,7 +12,7 @@ body {
 
 .certificate {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px; 
     padding: 20px;
     border: 2px solid #000;
     background-color: #fff;
@@ -21,16 +21,28 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
+
 .logo-container {
     display: flex;
     align-items: center;
     text-align: center;
     color: #228B22;
+    font-size: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
   }
+
+.header-main {
+    /*border: 2px solid #c94343; */
+    padding: 0px;
+    margin: 0px;
+}
   
   .logo1,
   .logo2 {
-    height: 100px;
+    height: 120px;
+
   }
   
   .logo1 {
@@ -40,24 +52,32 @@ body {
   .header-title {
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     color: #c94343;
+    font-size: 50px;
+    
+    padding: 0px;
+    margin: 0px;
+    
   }
-  
-
 
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    padding: 0px;
+    margin-top: 0;
   }
 
-  
 
 .container h2 {
     text-align: center;
     color: #228B22;
+    font-size: 30px;
+    padding-top: 0;
+    margin-top: 0;
   }
   
   .left-content,
