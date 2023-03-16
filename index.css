@@ -80,8 +80,7 @@ body {
   .right-content {
     width: 50%;
     padding: 20px;
-    padding-top: 0;
-    text-align: center;
+    height:500px;
   }
   
   .divider {
@@ -115,3 +114,18 @@ body {
   margin: 0.25rem 0;
 }
   
+.desc-left {
+  display:flex;
+  text-align:center;
+  align-items:center;
+  margin:0px;
+  height:40px
+}
+
+.desc-right {
+  display:flex;
+  align-items:center;
+  margin:0px;
+  height:40px
+}
+ 
