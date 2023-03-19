@@ -1,26 +1,27 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('certificate-background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family:  Helvetica, sans-serif, Arial,;
     color: #000;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5; 
+    position: relative;
 }
 
 .certificate {
     margin: 0 auto;
-    max-width: 1000px; 
+    max-width: 1050px; 
     padding: 20px;
-    border: 2px solid #000;
-    background-color: #fff;
+    /*border: 2px solid #000; */
+    border: 6px double red;
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    background-image: url('img/Bg-edited.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-
 
 .logo-container {
     display: flex;
@@ -33,7 +34,10 @@ body {
     
   }
 
-
+span {
+  font-weight: bold;
+  font-size: large;
+}
   
   .logo1,
   .logo2 {
@@ -88,7 +92,7 @@ body {
     align-items: center;
     margin-top: 10%;
     margin-bottom: 5%;
-    flex-basis: 3px;
+    flex-basis: 5px;
     height: 230px;
     background-color: rgb(247, 164, 12);
   }
