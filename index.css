@@ -9,20 +9,33 @@ body {
    
 }
 
-.certificate {
-    margin: 0 auto;
-    max-width: 1050px; 
-    padding: 20px;
-    /*border: 2px solid #000; */
-    border: 6px double red;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
-    background-image: url('img/Bg-edited.png');
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+.box {
+ border: 2px solid #DE9B72;
+ height: 99%;
+ width: 98%;
+ margin: 0 auto;
+ max-width: 1100px; 
+ margin-top: 50px;
+ margin-bottom: 50px;
+ border: 50px solid transparent;
+ border-image: url(./img/Border3.png) 30 round;
+ border-radius:8px;
+
+ background-image: url('img/Bg-edited.png');
+ background-position: center bottom;
+ background-repeat: no-repeat;
+ background-size: contain;
 }
+
+.certificate {
+  margin: 0 auto;
+  max-width: 1050px; 
+  padding: 20px;
+  border: 7px solid red; 
+  margin: 2px;
+ 
+}
+
 
 
 
