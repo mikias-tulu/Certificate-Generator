@@ -24,6 +24,7 @@ body {
     background-size: contain;
     border: 50px solid transparent;
     border-image: url(./img/Border3.png) 30 round;
+    border-radius:8px
 }
 
 .logo-container {
