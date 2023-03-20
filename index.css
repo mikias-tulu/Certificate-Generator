@@ -13,7 +13,8 @@ body {
     max-width: 1050px; 
     padding: 20px;
     /*border: 2px solid #000; */
-    border: 6px double red;
+   /*  border: 6px double red; 
+    */
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -21,7 +22,17 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
+
+    /*border */
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source:url('img/border.png');  
+    border-image-repeat: round;
+    border-image-slice: 10;
+    
 }
+
+
 
 .logo-container {
     display: flex;
