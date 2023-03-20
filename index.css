@@ -21,10 +21,15 @@ body {
  border-image: url(./img/Border3.png) 30 round;
  border-radius:8px;
 
- background-image: url('img/Bg-edited.png');
- background-position: center bottom;
- background-repeat: no-repeat;
- background-size: contain;
+
+}
+
+.box-image {
+  background-image: url('img/Bg-edited.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .certificate {
@@ -32,11 +37,8 @@ body {
   max-width: 1050px; 
   padding: 20px;
   border: 7px solid red; 
-  margin: 2px;
- 
+  margin: 5px;
 }
-
-
 
 
 .logo-container {
