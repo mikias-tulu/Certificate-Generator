@@ -9,22 +9,23 @@ body {
    
 }
 
+
 .certificate {
     margin: 0 auto;
     max-width: 1050px; 
     padding: 20px;
     /*border: 2px solid #000; */
+     
     
     margin-top: 50px;
     margin-bottom: 50px;
-    
     background-image: url('img/Bg-edited.png');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
     border: 50px solid transparent;
     border-image: url(./img/Border3.png) 30 round;
-    border-radius:8px
+    border-radius: 8px;
 }
 
 .logo-container {
