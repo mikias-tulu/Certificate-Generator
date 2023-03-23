@@ -173,7 +173,7 @@ span {
   text-align: center;
 }
 
-button, input{
+button, input#inputinfo{
   background-color: inherit;
   margin: 0.5em;
   font-weight: 300;
@@ -184,7 +184,7 @@ button, input{
   border-radius: 0.2em;
   transition: 0.3s all;
 }
-button:hover, input:hover{
+button:hover, input#inputinfo:hover{
   background-color: grey;
   color: black;
   cursor: pointer;
